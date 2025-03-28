@@ -1,8 +1,31 @@
 {
 	"name": "theia",
+	"version": "0.0.1",
+	"private": false,
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/TauriTheia#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/TauriTheia/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/TauriTheia.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"bin": "src-gen/backend/main.js",
 	"scripts": {
 		"prepare": "yarn theia:clean && yarn theia:build && yarn theia:download:plugins",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"theia:build": "theia build",
 		"theia:clean": "theia clean",
 		"theia:download:plugins": "theia download:plugins",
@@ -28,10 +51,14 @@
 		"@theia/terminal": "1.59.0"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@theia/cli": "1.59.0",
 		"execa": "9.5.2",
 		"pkg": "https://github.com/geekuillaume/pkg.git",
 		"tauri": "0.15.0"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"pkg": {
 		"assets": [
