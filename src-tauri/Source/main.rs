@@ -23,15 +23,12 @@ fn main() {
 }
 
 // Takes the name of the binary and returns the full path to its location
-fn get_bin_command(name:&str) -> String {
-	tauri::api::command::relative_command(
-		tauri::api::command::binary_command(name.to_string()).unwrap(),
-	)
-	.unwrap()
+fn get_bin_command(name: &str) -> String {
+	tauri::api::command::relative_command(tauri::api::command::binary_command(name.to_string()).unwrap()).unwrap()
 }
 
 // Spawns Theia server and loads url in webview
-fn spawn_theia_server<T:'static>(handle:&Handle<T>) {
+fn spawn_theia_server<T: 'static>(handle: &Handle<T>) {
 	// Get paths to orchestrator and main binary
 	let theia_binary = get_bin_command("theia");
 
