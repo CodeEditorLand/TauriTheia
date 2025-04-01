@@ -1,6 +1,6 @@
 [[bin]]
 name = "theia"
-path = "src/main.rs"
+path = "Source/main.rs"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
