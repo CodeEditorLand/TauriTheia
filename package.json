@@ -51,7 +51,7 @@
 		"@theia/terminal": "1.60.0"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.2",
+		"@playform/build": "0.2.3",
 		"@theia/cli": "1.60.0",
 		"execa": "9.5.2",
 		"pkg": "https://github.com/geekuillaume/pkg.git",
