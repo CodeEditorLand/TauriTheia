@@ -36,23 +36,23 @@
 		"vscode-ripgrep": "./vscode-ripgrep-custom.tgz"
 	},
 	"dependencies": {
-		"@theia/callhierarchy": "1.60.2",
-		"@theia/file-search": "1.60.2",
+		"@theia/callhierarchy": "1.61.0",
+		"@theia/file-search": "1.61.0",
 		"@theia/git": "1.60.2",
 		"@theia/json": "1.3.0",
-		"@theia/markers": "1.60.2",
-		"@theia/messages": "1.60.2",
-		"@theia/mini-browser": "1.60.2",
-		"@theia/navigator": "1.60.2",
-		"@theia/outline-view": "1.60.2",
-		"@theia/preferences": "1.60.2",
-		"@theia/preview": "1.60.2",
-		"@theia/search-in-workspace": "1.60.2",
-		"@theia/terminal": "1.60.2"
+		"@theia/markers": "1.61.0",
+		"@theia/messages": "1.61.0",
+		"@theia/mini-browser": "1.61.0",
+		"@theia/navigator": "1.61.0",
+		"@theia/outline-view": "1.61.0",
+		"@theia/preferences": "1.61.0",
+		"@theia/preview": "1.61.0",
+		"@theia/search-in-workspace": "1.61.0",
+		"@theia/terminal": "1.61.0"
 	},
 	"devDependencies": {
 		"@playform/build": "0.2.3",
-		"@theia/cli": "1.60.2",
+		"@theia/cli": "1.61.0",
 		"execa": "9.5.2",
 		"pkg": "https://github.com/geekuillaume/pkg.git",
 		"tauri": "0.15.0"
